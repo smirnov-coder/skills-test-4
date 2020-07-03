@@ -3,9 +3,7 @@
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" 
-                        id="exampleModalLabel">
-                        v-bind:class="isError ? 'text-danger' : 'text-success'" 
+                    <h5 class="modal-title" v-bind:class="isError ? 'text-danger' : 'text-success'">
                         {{ isError ? 'Error' : 'Success' }}
                     </h5>
                     <button type="button" 
