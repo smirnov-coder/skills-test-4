@@ -1,0 +1,7 @@
+﻿.navbar-nav {
+    flex-direction: row !important;
+
+    & > .nav-item:not(:last-of-type) {
+        margin-right: 20px;
+    }
+}
