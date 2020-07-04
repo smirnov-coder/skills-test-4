@@ -12,6 +12,7 @@ Technologies and libraries used in the development:
 
 - Frontend
   - Vue.js
+  - [Vuelidate](https://vuelidate.js.org/)
   - Bootstrap 4.5
 
 ## Launch
@@ -22,7 +23,7 @@ The frontend is based on ```vue-cli```. Unfortunately, Microsoft does not yet su
 
 First of all, you need to restore all JavaScript dependencies. To do this, go to the ```<solution folder>/SkillsTest/ClientApp``` folder and run the ```npm install``` or ```yarn install``` command.
 
-After all dependencies are downloaded, you must manually start the ```Vue``` development server. To do this, in the same folder ```<solution folder>/SkillsTest/ClientApp```, run the ```npm run serve``` or ```yarn serve``` command.
+After all dependencies are downloaded, you must manually start the ```vue-development-server```. To do this, in the same folder ```<solution folder>/SkillsTest/ClientApp```, run the ```npm run serve``` or ```yarn serve``` command.
 
 Now you can run the backend project. I prefer to use ```Kestrel``` server, it is already configured for ```http://localhost:5000``` (```vue-develompent-server``` has some problems with ```https```).
 
